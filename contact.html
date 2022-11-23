@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submission Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" type="text/css" href = "projectstyles.css">
+</head>
+<body>
+<a name="top"></a>
+<div id = "wrapper">
+  <header>
+    <h1>RE/Max Inc</h1>
+  </header>
+  <nav>
+    <ul class="nav">
+      <li>
+        <a href="IndividualProject.html">Home</a>
+      </li>
+      <li>
+        <a href="activelisting.html">Active Listings</a>
+        <ul>
+          <li><a href="house1.html "> Property 1</a></li>
+          <li><a href="house2.html "> Property 2</a></li>
+          <li><a href="house3.html"> Property 3</a></li>
+        </ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+    </ul>
+  </nav>
+  <main style="width: 100%;">
+    <fieldset style="padding: 0">
+    <section>
+      <form action="mailto:lindseyelliott@remax.net" method="post">
+        <h3 style="text-align:center"><u> Find your Perfect Home</u></h3>
+        <div class="inputBox">
+          <table id="form" style="width: 100%">
+            <tr>
+              <td>
+                <Label style="text-align:left" for ="FirstName" > First Name:</Label>
+                <input  id="FirstName" placeholder="FirstName" name="FirstName" type="text" size="25" tabindex="1"
+                        required="required">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <Label style="text-align:left" for ="LastName" > Last Name:</Label>
+                <input  id="LastName" placeholder="LastName" name="LastName" type="text" size="25" tabindex="3"
+                        required="required">
+            </td>
+              </tr>
+            <tr>
+              <td>
+                <br>
+                <label for="home" style="text-align:left" > Home Phone: </label>
+                <input type="search" name="home-phone" placeholder="Home Phone #" id="home-phone " tabindex="5">
+                <tr>
+            <td>
+              <br>
+                <label style="text-align:left" for="cellphone" > Cell Phone: </Label>
+                <input type="search" name="cellphone" placeholder="Cell Phone #" id="cellphone" tabindex="7" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <Label style="text-align:left" for ="Email" > Email:</Label>
+                <input  id="Email" placeholder="Email" name="Email" type="text" size="25" tabindex="9"
+                        required="required">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                <label for="neighbour"> Area: </label>
+                <input type = "search" name = "neighbour" placeholder = "Neighborhood" id = "neighbour" tabindex="11">
+
+                <label for="city"></label>
+                <input type = "search" name = "city" placeholder = "City" id = "city" tabindex="13">
+                </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">
+                    <br>
+                    <label for="minimum"></label>
+                <select name="minimum" id="minimum" tabindex="15">
+                  <option value="minimum" disabled hidden selected>minimum price</option>
+                  <option value="$10000">$100,000</option>
+                  <option value="$150000">$150,000</option>
+                  <option value="$200000">$200,000</option>
+                  <option value="$250000">$250,000</option>
+                  <option value="$300000">$300,000</option>
+                </select>
+
+                  <label for="maximum"></label>
+                  <select name="maximum" id="maximum" tabindex="17">
+                  <option value="max" disabled hidden selected>maximum price</option>
+                  <option value="$400000">$400,000</option>
+                  <option value="$500000">$500,000</option>
+                  <option value="$600000">$600,000</option>
+                  <option value="$700000">$700,000</option>
+                  <option value="$800000">$800,000</option>
+                  <option value="$900000">$900,000</option>
+                  <option value="$1000000">$1,000,000</option>
+                  <option value="$1500000">$1,500,000</option>
+                  <option value="$2000000">$2,000,000</option>
+                  <option value="$2500000">$2,500,000</option>
+                  <option value="$3000000">$3,000,000</option>
+                  <option value="$4000000">$4,000,000</option>
+                  <option value="$5000000">$5,000,000</option>
+                  <option value="$6000000">$6,000,000+</option>
+                </select>
+                    <label for = "custom"></label>
+                    <input name = "value" placeholder = "Specify Amount $" id = "custom" tabindex="19">
+                    </td>
+                    </tr>
+            <tr>
+              <td style="text-align:center;">
+                <br>
+                <select name = "status" id = "status" tabindex="21">
+                  <option value="" disabled hidden selected>property status</option>
+                  <option value="Ready To Move">Ready To Move</option>
+                  <option value="under construction">under construction</option>
+                  <option value="furnished">furnished</option>
+                  <option value="semi-furnished">semi-furnished</option>
+                  <option value="unfurnished">unfurnished</option>
+                </select>
+
+                <select name="Property" id="Property" tabindex="23">
+                  <option value="" disabled hidden selected>property type</option>
+                  <option value="Flat">Flat</option>
+                  <option value="House">House</option>
+                  <option value="Condo">Condo</option>
+                  <option value="Townhouse">Townhouse</option>
+                  <option value="Loft">Loft</option>
+                  <option value="land">land</option>
+                </select>
+                <select name="BHK" id="BHK" tabindex="25">
+                  <option value="" disabled hidden selected>BHK</option>
+                  <option value="1 BHK">1 BHK</option>
+                  <option value="2 BHK">2 BHK</option>
+                  <option value="3 BHK">3 BHK</option>
+                  <option value="4 BHK">4 BHK</option>
+                  <option value="5 BHK">5 BHK</option>
+                </select>
+                </td>
+              </tr>
+            <tr>
+              <td style="text-align: center;">
+                <br>
+                <select name="amenities" id="amenities" tabindex="27">
+                  <option value="" disabled hidden selected>amenities</option>
+                  <option value="parking space">parking space</option>
+                  <option value="swimming pool">swimming pool</option>
+                  <option value="playground">playground</option>
+                  <option value="security">security</option>
+                  <option value="all">all</option>
+                </select>
+
+                <select name="bedroom" id="bedroom" tabindex="29">
+                  <option value="" disabled hidden selected>bedrooms</option>
+                  <option value="1 bedroom">1 bedroom</option>
+                  <option value="2 bedroom">2 bedroom</option>
+                  <option value="3 bedroom">3 bedroom</option>
+                  <option value="4 bedroom">4 bedroom</option>
+                  <option value="5 bedroom">5 bedroom</option>
+                </select>
+                <select name="bathroom" id="bathroom" tabindex="31">
+                  <option value="" disabled hidden selected>bathrooms</option>
+                  <option value="1 bathroom">1 bathroom</option>
+                  <option value="2 bathroom">2 bathroom</option>
+                  <option value="3 bathroom">3 bedroom</option>
+                  <option value="4 bathroom">4 bathroom</option>
+                  <option value="5 bathroom">5 bathroom</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;">
+                <br>
+                <label for="txtOther" class="radio-group"> </label>
+                <textarea id="txtOther" cols="50" name="txtOther" rows="4" tabindex="33"
+                          placeholder="---Additional information ---"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center;">
+                <br>
+                <input type="reset" name="btnReset" value="Clear" tabindex="35"  >
+                <input type="submit" value="submit" class="btn" tabindex="37">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </section>
+    </fieldset>
+  </main>
+  <aside>
+    <figure>
+      <img src = "agent1.png" height="400" width="300" alt="Lindsey Elliot">
+      <br> Lindsey Elliot - Premier Realtor
+      <br> Phone: +1 732-284-1906
+      <br> Instagram: <a href="https://www.instagram.com/lindseyelliottrealtor/">Instagram</a>
+      <br> Email: <a href="mailto:lindseyelliott@remax.net">lindseyelliott@remax.net</a>
+      <br> Web: <a href="https://www.zillow.com/profile/LindseyJaneElliott">https://www.zillow.com/profile/LindseyJaneElliott</a>
+    </figure>
+  </aside>
+</div>
+</body>
+</html>
